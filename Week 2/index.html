@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maproom</title>
+	<meta charset="utf-8" />
+
+	<!-- style sheets -->
+	<link rel="stylesheet" href="css/style.css">
+
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+<body>
+
+	<div class="header">
+		Places Where I Have Sailed Regattas 
+	</div>
+	<div class="sidebar">
+		This map shows only some of the places where I have competed in sailing regattas, which are basically sailing competitions. Sailing is my favorite thing to do, and these are a few of my favorite places sailing has taken me!  
+	</div>
+	<div class="content">
+		<div id="map"></div>
+	</div>
+
+    <script>
+		var map = L.map('map').setView([0, 0], 2);
+
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+
+		let data = [
+			{
+				'title' : 'Oahu',
+				'description' : 'I sailed here at the Rainbow Invite Regatta in January 2019',
+				'lat' : '21.4389',
+				'lon' : '-158.0001'
+			},
+			{
+				'title' : 'Santa Barbara',
+				'description' : 'I sailed a team racing regatta and a championship regatta here',
+				'lat' : '34.4208',
+				'lon' : '-119.6982'
+			},
+			{
+				'title' : 'Clearwater',
+				'description' : 'I sailed a womens regatta here in 2019',
+				'lat' : '27.9659',
+				'lon' : '-82.8001'
+			},
+			{
+				'title' : 'South Carolina',
+				'description' : 'I went to a regatta here in high school',
+				'lat' : '32.7765',
+				'lon' : '-79.9311'
+			},
+			{
+				'title' : 'Mission Bay',
+				'description' : 'This was where I sailed my first college regatta!',
+				'lat' : '32.7805',
+				'lon' : '-117.2426'
+			}
+		]
+		data.forEach(function(item){
+			var marker = L.marker([item.lat,item.lon]).addTo(map)
+				.bindPopup(item.title+": "+item.description)
+				.openPopup()
+		});	
+			
+    </script>
+
+
+</body>
+</html>
