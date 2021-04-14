@@ -5,4 +5,5 @@ Before reading the article and watching the video, I was under the impression th
 
 # Questions for Alesha:
 (1) What strategies do you implement when thinking about the UX design for new projects?
+
 (2) What advice do you have for someone who is interested in the UX field but isn't a strong coder or doesn't have much experience in the field?
