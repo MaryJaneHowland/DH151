@@ -3,7 +3,7 @@ let map;
 let lat = 0;
 let lon = 0;
 let zl = 3;
-let path = "https://raw.githubusercontent.com/MaryJaneHowland/DH151/main/Data/Art%20Installations%20Data%20-%20Sheet1.csv";
+let path = "https://raw.githubusercontent.com/MaryJaneHowland/DH151/main/Data/Updated%20Artistic%20Installations%20Data%20-%20Sheet1.csv";
 let markers = L.featureGroup();
 
 // initialize

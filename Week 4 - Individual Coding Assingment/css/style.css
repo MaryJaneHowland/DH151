@@ -21,7 +21,7 @@ body {
 .header {
 	grid-area: header;
 	padding:10px;
-	background-color: #333;
+	background-color: rgb(189, 80, 174);
 	color: white;
 	font-size: 2em;
 }
@@ -30,7 +30,7 @@ body {
 	color: white;
 	grid-area: sidebar;
 	padding:10px;
-	background-color: #555;
+	background-color: rgb(50, 24, 112);
 	overflow: auto;
 }
 
@@ -41,5 +41,5 @@ body {
 .footer {
 	grid-area: footer;
 	padding:10px;
-	background-color: rgb(175, 175, 175);
+	background-color: rgb(50, 24, 112);
 }
