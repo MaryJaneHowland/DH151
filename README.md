@@ -5,4 +5,4 @@
 
 [Week 3: Maproom](Week 3/index.html)
 
-[Weel 4: Maproom] (Week 4 - Individual Coding Assignment/index.html)
+[Weel 4: Maproom](Week 4 - Individual Coding Assignment/index.html)
