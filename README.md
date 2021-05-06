@@ -7,4 +7,4 @@
 
 [Week 4: Maproom](Week 4 - Individual Coding Assignment/index.html)
 
-[Week 6: Thinking Cap](Week 6/ThinkingCap.md)
+[Week 6: Thinking Cap Assignment](Week 6/ThinkingCap.md)
