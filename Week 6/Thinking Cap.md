@@ -1,4 +1,4 @@
-#Week 6 Thinking Cap Assingnment
+# Week 6 Thinking Cap Assingnment
 
 1. I was very intrigued by the author’s emphasis on thick maps’ unique inclinations towards achieving a level of “polyvocality” (Presner et al. 18). This means that unlike ordinary maps, thick maps are all-encompassing and inclusive of multiple (and sometimes contradicting) voices, perspectives, and contexts related to a particular subject. By doing so, thick maps achieve a very multidimensional and layered representation of the specific topic that go beyond simply mapping superficial data points. I find this mapping strategy to be something very smart and effective, as it reduces the possibility that underrepresented experiences are left out from the conversation.
 
